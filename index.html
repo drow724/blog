@@ -75,6 +75,7 @@ function dp_tab1(){
     let click1 = document.getElementById("onlink1");
     let click2 = document.getElementById("onlink2");
     let click3 = document.getElementById("onlink3");
+    let click4 = document.getElementById("onbutton1");
     if(click1.style.display === "block"){
         click1.style.display = "none";
         click2.style.display = "block";
@@ -96,11 +97,12 @@ function dp_tab_move1(){
     let click2 = document.getElementById("onlink2");
     let click = document.getElementById("onlink");
     let click4 = document.getElementById("onlink4");
+    let click5 = document.getElementById("onlink5");
     if(click2.style.background === "grey"){
         click2.style.background = "white";
         click.style.background= "grey";
         click4.style.background= "grey";
-        this.tab1 = response.text();
+        
     }
 }
 function dp_tab_move2(){
@@ -121,6 +123,18 @@ function dp_tab_move3(){
         click4.style.background = "white";
         click.style.background= "grey";
         click2.style.background= "grey";
+    }
+}
+function dp_del1(){
+    let click1 = document.getElementById("onbutton1");
+    let click2 = document.getElementById("onlink2");
+    let click3 = document.getElementById("onlink1");
+    let click4 = document.getElementById("onlink3");
+    if(click1.style.float === "right"){
+        click1.style.display = "none";
+        click2.style.display = "none";
+        click3.style.display = "block";
+        click4.style.display = "none;";
     }
 }
 </script>
