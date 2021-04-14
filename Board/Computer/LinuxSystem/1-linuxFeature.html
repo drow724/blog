@@ -1,37 +1,690 @@
-<html>
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=ks_c_5601-1987">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="1-linuxFeature.files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>a</o:Author>
+  <o:LastAuthor>a</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>3</o:TotalTime>
+  <o:Created>2021-04-14T08:28:00Z</o:Created>
+  <o:LastSaved>2021-04-14T08:28:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>284</o:Words>
+  <o:Characters>1623</o:Characters>
+  <o:Lines>13</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>1904</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="1-linuxFeature.files/themedata.thmx">
+<link rel=colorSchemeMapping href="1-linuxFeature.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>KO</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
 <style>
 <!--
  /* Font Definitions */
  @font-face
 	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
 @font-face
 	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
 @font-face
 	{font-family:"맑은 고딕";
-	panose-1:2 11 5 3 2 0 0 2 0 4;}
+	panose-1:2 11 5 3 2 0 0 2 0 4;
+	mso-font-charset:129;
+	mso-generic-font-family:modern;
+	mso-font-pitch:variable;
+	mso-font-signature:-1879048145 701988091 18 0 524289 0;}
 @font-face
-	{font-family:"\@맑은 고딕";}
+	{font-family:"\@맑은 고딕";
+	mso-font-charset:129;
+	mso-generic-font-family:modern;
+	mso-font-pitch:variable;
+	mso-font-signature:-1879048145 701988091 18 0 524289 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	line-height:107%;
-	text-autospace:none;
-	word-break:break-hangul;
-	font-size:10.0pt;
-	font-family:"맑은 고딕";}
-h1
-	{mso-style-link:"제목 1 Char";
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
 	margin-top:0cm;
 	margin-right:0cm;
 	margin-bottom:8.0pt;
@@ -39,14 +692,56 @@ h1
 	text-align:justify;
 	text-justify:inter-ideograph;
 	line-height:107%;
+	mso-pagination:none;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"제목 1 Char";
+	mso-style-next:표준;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:107%;
+	mso-pagination:none;
 	page-break-after:avoid;
+	mso-outline-level:1;
 	text-autospace:none;
 	word-break:break-hangul;
 	font-size:14.0pt;
 	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-font-kerning:1.0pt;
 	font-weight:normal;}
 h2
-	{mso-style-link:"제목 2 Char";
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"제목 2 Char";
+	mso-style-next:표준;
 	margin-top:0cm;
 	margin-right:0cm;
 	margin-bottom:8.0pt;
@@ -54,256 +749,548 @@ h2
 	text-align:justify;
 	text-justify:inter-ideograph;
 	line-height:107%;
+	mso-pagination:none;
 	page-break-after:avoid;
+	mso-outline-level:2;
 	text-autospace:none;
 	word-break:break-hangul;
 	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
 	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-font-kerning:1.0pt;
 	font-weight:normal;}
 h3
-	{mso-style-link:"제목 3 Char";
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"제목 3 Char";
+	mso-style-next:표준;
 	margin-top:0cm;
 	margin-right:0cm;
 	margin-bottom:8.0pt;
 	margin-left:15.0pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:3.0gd;
 	text-align:justify;
 	text-justify:inter-ideograph;
 	text-indent:-100.0pt;
+	mso-char-indent-count:-2.0;
 	line-height:107%;
+	mso-pagination:none;
 	page-break-after:avoid;
+	mso-outline-level:3;
 	text-autospace:none;
 	word-break:break-hangul;
 	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
 	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-font-kerning:1.0pt;
 	font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
 	margin-right:0cm;
 	margin-bottom:8.0pt;
 	margin-left:40.0pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:4.0gd;
 	text-align:justify;
 	text-justify:inter-ideograph;
 	line-height:107%;
+	mso-pagination:none;
 	text-autospace:none;
 	word-break:break-hangul;
 	font-size:10.0pt;
-	font-family:"맑은 고딕";}
+	mso-bidi-font-size:11.0pt;
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
 span.1Char
 	{mso-style-name:"제목 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
 	mso-style-link:"제목 1";
-	font-family:"맑은 고딕";}
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;}
 span.2Char
 	{mso-style-name:"제목 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
 	mso-style-link:"제목 2";
-	font-family:"맑은 고딕";}
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;}
 span.3Char
 	{mso-style-name:"제목 3 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
 	mso-style-link:"제목 3";
-	font-family:"맑은 고딕";}
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
 .MsoChpDefault
-	{font-family:"맑은 고딕";}
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
 	text-align:justify;
 	text-justify:inter-ideograph;
 	line-height:107%;}
  /* Page Definitions */
- @page WordSection1
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
 	{size:595.3pt 841.9pt;
-	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
 div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
- ol
+ @list l0
+	{mso-list-id:669678898;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1626904468 2018421788 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:38.0pt;
+	text-indent:-18.0pt;
+	font-family:"맑은 고딕";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:60.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:80.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:100.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:140.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:160.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:180.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:200.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+ol
 	{margin-bottom:0cm;}
 ul
 	{margin-bottom:0cm;}
 -->
 </style>
-
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"표준 표";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"맑은 고딕";
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
 </head>
 
-<body lang=KO>
+<body lang=KO style='tab-interval:40.0pt'>
 
 <div class=WordSection1>
 
-<h1 style='line-height:200%'><b><span style='font-size:72.0pt;line-height:200%'>유닉스<span
-lang=EN-US>/</span>리눅스 특징</span></b></h1>
+<h1 style='line-height:300%'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:72.0pt;mso-bidi-font-size:16.0pt;line-height:300%'>유닉스<span
+lang=EN-US>/</span>리눅스 특징<span lang=EN-US><o:p></o:p></span></span></b></h1>
 
-<p class=MsoNormal style='line-height:200%'><span style='font-size:26.0pt;
-line-height:200%'>유닉스<span lang=EN-US>(Unix)</span>는 <span lang=EN-US>1970</span>년대
-초에 미국 <span lang=EN-US>AT&amp;T </span>벨연구소에서 켄 톰슨<span lang=EN-US>(Ken
-Thompson), </span>데니스리치<span lang=EN-US>(Dennis Ritchie)</span>등에 의해 다중 사용자 운영체제로
-개발되었으며 그 이후로 지속적으로 발전해오고 있다<span lang=EN-US>.</span></span></p>
+<p class=MsoNormal style='line-height:300%'><span style='font-size:26.0pt;
+mso-bidi-font-size:11.0pt;line-height:300%'>유닉스<span lang=EN-US>(Unix)</span>는 <span
+lang=EN-US>1970</span>년대 초에 미국 <span lang=EN-US>AT&amp;T </span><span
+class=SpellE>벨연구소에서</span> 켄 톰슨<span lang=EN-US>(Ken Thompson), </span><span
+class=SpellE>데니스리치</span><span lang=EN-US>(Dennis Ritchie)</span>등에 의해 다중 사용자 운영체제로
+개발되었으며 그 이후로 지속적으로 발전해오고 있다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoNormal style='line-height:200%'><span style='font-size:26.0pt;
-line-height:200%'>특히 <span lang=EN-US>1990</span>년대 초에 리누스 토르발즈<span
-lang=EN-US>(Linus Torbalds)</span>에 의해 <span lang=EN-US>PC</span>를 위한 운영체제인 리눅스<span
-lang=EN-US>(Linux)</span>가 개발됨으로써 보다 광범위하게 사용되고 있으며 애플<span lang=EN-US>(Apple) </span>사의
-맥<span lang=EN-US>(Mac) os X </span>역시 유닉스 기반의 운영체제로 개발되어 애플의 강력한 소프트웨어 경쟁력의 원천이
-되고 있다<span lang=EN-US>.</span></span></p>
+<p class=MsoNormal style='line-height:300%'><span style='font-size:26.0pt;
+mso-bidi-font-size:11.0pt;line-height:300%'>특히 <span lang=EN-US>1990</span>년대 초에
+<span class=SpellE>리누스</span> <span class=SpellE>토르발즈</span><span lang=EN-US>(Linus
+<span class=SpellE>Torbalds</span>)</span>에 의해 <span lang=EN-US>PC</span>를 위한 운영체제인
+리눅스<span lang=EN-US>(Linux)</span>가 개발됨으로써 보다 광범위하게 사용되고 있으며 애플<span
+lang=EN-US>(Apple) </span>사의 맥<span lang=EN-US>(Mac) <span class=SpellE>os</span>
+X </span>역시 유닉스 기반의 운영체제로 개발되어 애플의 강력한 소프트웨어 경쟁력의 원천이 되고 있다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoNormal style='line-height:200%'><span lang=EN-US style='font-size:
-26.0pt;line-height:200%'>&nbsp;</span></p>
+<p class=MsoNormal style='line-height:300%'><span lang=EN-US style='font-size:
+26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'><o:p>&nbsp;</o:p></span></p>
 
-<h2 style='line-height:200%'><span style='font-size:48.0pt;line-height:200%'>유닉스의
-설계 철학</span></h2>
+<h2 style='line-height:300%'><span style='font-size:48.0pt;mso-bidi-font-size:
+14.0pt;line-height:300%'>유닉스의 설계 철학<span lang=EN-US><o:p></o:p></span></span></h2>
 
-<p class=MsoNormal style='line-height:200%'><span style='font-size:26.0pt;
-line-height:200%'>유닉스의 대표적인 설계 철학은 단순성<span lang=EN-US>, </span>이식성 및 개방성이라고 할 수
-있다<span lang=EN-US>.</span></span></p>
+<p class=MsoNormal style='line-height:300%'><span style='font-size:26.0pt;
+mso-bidi-font-size:11.0pt;line-height:300%'>유닉스의 대표적인 설계 철학은 단순성<span
+lang=EN-US>, </span><span class=SpellE>이식성</span> 및 개방성이라고 할 수 있다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoNormal style='line-height:200%'><span style='font-size:26.0pt;
-line-height:200%'>유닉스는 그 당시 대규모 운영체제 프로젝트였던 <span lang=EN-US>MIT </span>멀틱스<span
-lang=EN-US>(Multics) </span>시스템과는 반대로 단순성<span lang=EN-US>(simplicity)</span>을 목표로
-설계되었으며 이식성<span lang=EN-US>(portability)</span>을 위해 <span lang=EN-US>C </span>언어로
-다시 작성되었다<span lang=EN-US>.</span></span></p>
+<p class=MsoNormal style='line-height:300%'><span style='font-size:26.0pt;
+mso-bidi-font-size:11.0pt;line-height:300%'>유닉스는 그 당시 대규모 운영체제 프로젝트였던 <span
+lang=EN-US>MIT </span><span class=SpellE>멀틱스</span><span lang=EN-US>(Multics) </span>시스템과는
+반대로 단순성<span lang=EN-US>(simplicity)</span>을 목표로 설계되었으며 <span class=SpellE>이식성</span><span
+lang=EN-US>(portability)</span>을 위해 <span lang=EN-US>C </span>언어로 다시 작성되었다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoNormal style='line-height:200%'><span style='font-size:26.0pt;
-line-height:200%'>이론적으로 유닉스 운영체제는 <span lang=EN-US>C</span>언어가 실행될 수 있는 환경이면 어디나
-설치가 가능</span></p>
+<p class=MsoNormal style='line-height:300%'><span style='font-size:26.0pt;
+mso-bidi-font-size:11.0pt;line-height:300%'>이론적으로 유닉스 운영체제는 <span lang=EN-US>C</span>언어가
+실행될 수 있는 환경이면 어디나 설치가 가능<span lang=EN-US><o:p></o:p></span></span></p>
 
-<p class=MsoNormal style='line-height:200%'><span style='font-size:26.0pt;
-line-height:200%'>유닉스 계열<span lang=EN-US>(</span>리눅스 포함<span lang=EN-US>) </span>운영체제는
-소스코드 등이 개방되어 다수의 자발적 참여자들에 의해 지속적으로 발전되어 왔다<span lang=EN-US>.</span></span></p>
+<p class=MsoNormal style='line-height:300%'><span style='font-size:26.0pt;
+mso-bidi-font-size:11.0pt;line-height:300%'>유닉스 계열<span lang=EN-US>(</span>리눅스 포함<span
+lang=EN-US>) </span>운영체제는 소스코드 등이 개방되어 다수의 자발적 참여자들에 의해 지속적으로 발전되어 왔다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
 
-<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:200%'><span
-style='font-size:36.0pt;line-height:200%'>단순성</span></h3>
+<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:300%'><span
+style='font-size:36.0pt;mso-bidi-font-size:12.0pt;line-height:300%'>단순성<span
+lang=EN-US><o:p></o:p></span></span></h3>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>운영체제 자체를 가능한 한 단순화시켜 최소한 필요한 기능만 제공하도록
-하였다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>운영체제 자체를 가능한
+한 단순화시켜 최소한 필요한 기능만 제공하도록 하였다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>단순성을 위해 자원에 대한 일관성 있는 관점을 제공한다<span
-lang=EN-US>. </span>이를 통해 모든 주변 장치들도 파일과 같은 방식으로 사용할 수 있도록 해준다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>단순성을 위해 자원에
+대한 일관성 있는 관점을 제공한다<span lang=EN-US>. </span>이를 통해 모든 주변 장치들도 파일과 같은 방식으로 사용할 수 있도록
+해준다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:200%'><span
-style='font-size:36.0pt;line-height:200%'>이식성</span></h3>
+<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:300%'><span
+class=SpellE><span style='font-size:36.0pt;mso-bidi-font-size:12.0pt;
+line-height:300%'>이식성</span></span><span lang=EN-US style='font-size:36.0pt;
+mso-bidi-font-size:12.0pt;line-height:300%'><o:p></o:p></span></h3>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>고급 언어인 <span lang=EN-US>C </span>언어로 작성되었다<span
-lang=EN-US>. </span>이러한 특징으로 인해 다양한 플랫폼에 쉽게 이식할 수 있다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>고급 언어인 <span
+lang=EN-US>C </span>언어로 작성되었다<span lang=EN-US>. </span>이러한 특징으로 인해 다양한 플랫폼에 쉽게 이식할
+수 있다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>운영체제의 이식성이 높다는 것은 여러 기종의 하드웨어에 동일한 운영체제를
-운용할 수 있고<span lang=EN-US>, </span>운영체제가 동일하면 이기종 하드웨어를 가진 시스템끼리 정보를 주고받는 것이 훨씬 쉬워진다<span
-lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>운영체제의 <span
+class=SpellE>이식성이</span> 높다는 것은 여러 기종의 하드웨어에 동일한 운영체제를 운용할 수 있고<span
+lang=EN-US>, </span>운영체제가 동일하면 이기종 하드웨어를 가진 <span class=SpellE>시스템끼리</span> 정보를
+주고받는 것이 훨씬 쉬워진다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>이식성이 높으면 새로이 등장하는 싸고 좋은 하드웨어를 얼마든지 쉽게
-교제하여 사용할 수 있다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+class=SpellE><span style='font-size:26.0pt;mso-bidi-font-size:11.0pt;
+line-height:300%'>이식성이</span></span><span style='font-size:26.0pt;mso-bidi-font-size:
+11.0pt;line-height:300%'> 높으면 새로이 등장하는 싸고 좋은 하드웨어를 얼마든지 쉽게 교제하여 사용할 수 있다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
 
-<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:200%'><span
-style='font-size:36.0pt;line-height:200%'>개방성</span></h3>
+<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:300%'><span
+style='font-size:36.0pt;mso-bidi-font-size:12.0pt;line-height:300%'>개방성<span
+lang=EN-US><o:p></o:p></span></span></h3>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>벨 연구소는 버클리 대학을 비롯한 다른 대학들과의 공동 연구를 위해
-소스 코드를 공개하였고<span lang=EN-US>, </span>이후 활발한 연구를 통해 유닉스를 기반으로 하는 여러 가지 유용한 소프트웨어들이
-개발되었으며<span lang=EN-US>, </span>이 소프트웨어들을 유닉스와 동일한 방식으로 보급하였다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>벨 연구소는 버클리 대학을
+비롯한 다른 대학들과의 공동 연구를 위해 소스 코드를 공개하였고<span lang=EN-US>, </span>이후 활발한 연구를 통해 유닉스를
+기반으로 하는 여러 가지 유용한 소프트웨어들이 개발되었으며<span lang=EN-US>, </span>이 소프트웨어들을 유닉스와 동일한 방식으로
+보급하였다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>소프트웨어를 상호 공개하고 공유하여 상호 혜택을 주고 받는 원칙은 유닉스
-환경이나 사용자<span lang=EN-US>, </span>집단의 기본 철학이기도 하면서 동시에 유닉스 소프트웨어의 양적<span
-lang=EN-US>, </span>질적인 면에서의 폭발적인 성장을 촉진하는 원동력이 되었다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>소프트웨어를 상호 공개하고
+공유하여 상호 혜택을 주고 받는 원칙은 유닉스 환경이나 사용자<span lang=EN-US>, </span>집단의 기본 철학이기도 하면서 동시에
+유닉스 소프트웨어의 양적<span lang=EN-US>, </span>질적인 면에서의 폭발적인 성장을 촉진하는 원동력이 되었다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoNormal style='line-height:200%'><span lang=EN-US style='font-size:
-26.0pt;line-height:200%'>&nbsp;</span></p>
+<p class=MsoNormal style='line-height:300%'><span lang=EN-US style='font-size:
+26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'><o:p>&nbsp;</o:p></span></p>
 
-<h2 style='line-height:200%'><span style='font-size:48.0pt;line-height:200%'>유닉스의
-특징</span></h2>
+<h2 style='line-height:300%'><span style='font-size:48.0pt;mso-bidi-font-size:
+14.0pt;line-height:300%'>유닉스의 특징<span lang=EN-US><o:p></o:p></span></span></h2>
 
-<p class=MsoNormal style='line-height:200%'><span style='font-size:26.0pt;
-line-height:200%'>다중 사용자 다중 프로세스가 기본적으로 가능하고 명령어 해석기 쉘<span lang=EN-US>, </span>계층적
-파일 시스템<span lang=EN-US>, </span>네트워킹 등의 특징적인 기능들을 포함하고 있다<span lang=EN-US>.</span></span></p>
+<p class=MsoNormal style='line-height:300%'><span style='font-size:26.0pt;
+mso-bidi-font-size:11.0pt;line-height:300%'>다중 사용자 다중 프로세스가 기본적으로 가능하고 명령어 해석기 쉘<span
+lang=EN-US>, </span>계층적 파일 시스템<span lang=EN-US>, </span>네트워킹 등의 특징적인 기능들을 포함하고 있다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
 
-<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:200%'><span
-style='font-size:36.0pt;line-height:200%'>다중 사용자 다중 프로세스 운영체제</span></h3>
+<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:300%'><span
+style='font-size:36.0pt;mso-bidi-font-size:12.0pt;line-height:300%'>다중 사용자 다중 프로세스
+운영체제<span lang=EN-US><o:p></o:p></span></span></h3>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>유닉스는 처음 개발될 때부터 여러 사용자가 동시에 사용할 수 있는 다중
-사용자 운영체제로 개발되었다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>유닉스는 처음 개발될
+때부터 여러 사용자가 동시에 사용할 수 있는 다중 사용자 운영체제로 개발되었다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>다중 사용자를 지원하기 위하여 여러 프로그램들이 동시에 실행될 수 있는
-다중 프로세스 기능을 갖추고 있다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>다중 사용자를 지원하기
+위하여 여러 프로그램들이 동시에 실행될 수 있는 다중 프로세스 기능을 갖추고 있다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>여러 사용자를 관리하기 위한 슈퍼유저<span lang=EN-US>(Super-user)</span>가
-있다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>여러 사용자를 관리하기
+위한 슈퍼유저<span lang=EN-US>(Super-user)</span>가 있다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:200%'><span
-style='font-size:36.0pt;line-height:200%'>쉘을 이용한 대화식 운영체제</span></h3>
+<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:300%'><span
+style='font-size:36.0pt;mso-bidi-font-size:12.0pt;line-height:300%'>쉘을 이용한 대화식 운영체제<span
+lang=EN-US><o:p></o:p></span></span></h3>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>명령어 해석기인 쉘<span lang=EN-US>(shell)</span>을
-통하여 사용자가 마치 시스템과 대화하는 것처럼 시스템을 사용할 수 있다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>명령어 해석기인 쉘<span
+lang=EN-US>(shell)</span>을 통하여 사용자가 마치 시스템과 대화하는 것처럼 시스템을 사용할 수 있다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>사용자에게 명령어를 입력 받기 위해서 유닉스는 쉘 프롬프트를 화면에
-표시하고 사용자가 명령어를 입력하면 쉘이 이를 해석하고 처리하여 결과를 알려주는 방식</span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>사용자에게 명령어를 입력
+받기 위해서 유닉스는 쉘 프롬프트를 화면에 표시하고 사용자가 명령어를 입력하면 쉘이 이를 해석하고 처리하여 결과를 알려주는 방식<span
+lang=EN-US><o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>유닉스 명령어나 유틸리티 등을 사용하여 프로그램을 작성할 수 있고<span
-lang=EN-US>, </span>이러한 프로그램을 쉘 스크립트<span lang=EN-US>(shell-script)</span>라고 한다<span
-lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>유닉스 명령어나 유틸리티
+등을 사용하여 프로그램을 작성할 수 있고<span lang=EN-US>, </span>이러한 프로그램을 쉘 스크립트<span
+lang=EN-US>(shell-script)</span>라고 한다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:200%'><span
-style='font-size:36.0pt;line-height:200%'>계층적 파일 시스템</span></h3>
+<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:300%'><span
+style='font-size:36.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>계층적 파일 시스템<span
+lang=EN-US><o:p></o:p></span></span></h3>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>유닉스 파일 시스템은 디렉터리들이 트리와 같은 계층 구조로 구성된다<span
-lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>유닉스 파일 시스템은
+디렉터리들이 트리와 같은 계층 구조로 구성된다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>가장 상위 디렉터리인 루트<span lang=EN-US>(root)
-</span>디렉터리로부터 그 아래로 여러 디렉터리들이 트리와 같은 형태로 구성된다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>가장 상위 디렉터리인
+루트<span lang=EN-US>(root) </span>디렉터리로부터 그 아래로 여러 디렉터리들이 트리와 같은 형태로 구성된다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
 
-<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:200%'><span
-style='font-size:36.0pt;line-height:200%'>훌륭한 네트워킹</span></h3>
+<h3 style='margin-left:102.0pt;text-indent:-72.0pt;line-height:300%'><span
+style='font-size:36.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>훌륭한 네트워킹<span
+lang=EN-US><o:p></o:p></span></span></h3>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-style='font-size:26.0pt;line-height:200%'>유닉스는 다양한 네트워크 응용 프로그램을 제공한다<span
-lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>유닉스는 다양한 네트워크
+응용 프로그램을 제공한다<span lang=EN-US>.<o:p></o:p></span></span></p>
 
-<p class=MsoListParagraph style='margin-left:38.0pt;text-indent:-18.0pt;
-line-height:200%'><span lang=EN-US style='font-size:26.0pt;line-height:200%'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:26.0pt;line-height:200%'>ftp, telnet, www </span><span
-style='font-size:26.0pt;line-height:200%'>등의 대부분의 네트워크 응용들은 유닉스를 기반으로 하여 개발되어 점차
-다름 시스템으로 이전되었다<span lang=EN-US>.</span></span></p>
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;line-height:300%;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%;
+mso-ascii-font-family:"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:
+"맑은 고딕";mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=EN-US style='font-size:26.0pt;mso-bidi-font-size:11.0pt;line-height:300%'>ftp,
+telnet, www </span><span style='font-size:26.0pt;mso-bidi-font-size:11.0pt;
+line-height:300%'>등의 대부분의 네트워크 응용들은 유닉스를 기반으로 하여 개발되어 점차 다름 시스템으로 이전되었다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
 
 </div>
 
