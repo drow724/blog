@@ -11,7 +11,7 @@
 <div class="index-header">
   <!--NAV-->
   <nav>
-      <button class="button" style="cursor:pointer; font-size: 1em; padding: 20px 20px 20px 20px; font-size: 3em;" onclick="fetchPage('development.html')">송재근의 개발일지</button>
+      <button class="index-button" style="" onclick="fetchPage('development.html')">송재근의 개발일지</button>
   </nav> 
   </div> 
 </header>
@@ -40,7 +40,7 @@ function fetchBoard(name){
 function dp_menu1(){
     let click = document.getElementById("drop-content1");
     if(click.style.display === "none"){
-        click.style.display = "block";
+        click.style.display = "inline-block";
 
     }else{
         click.style.display = "none";
@@ -50,7 +50,7 @@ function dp_menu1(){
 function dp_menu2(){
     let click = document.getElementById("drop-content2");
     if(click.style.display === "none"){
-        click.style.display = "block";
+        click.style.display = "inline-block";
 
     }else{
         click.style.display = "none";
@@ -60,7 +60,17 @@ function dp_menu2(){
 function dp_menu3(){
     let click = document.getElementById("drop-content3");
     if(click.style.display === "none"){
-        click.style.display = "block";
+        click.style.display = "inline-block";
+
+    }else{
+        click.style.display = "none";
+
+    }
+}
+function dp_menu4(){
+    let click = document.getElementById("drop-content4");
+    if(click.style.display === "none"){
+        click.style.display = "inline-block";
 
     }else{
         click.style.display = "none";

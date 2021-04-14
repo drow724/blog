@@ -11,10 +11,7 @@
 <div style="border: 10px double; margin-top: 50px; margin-left: 150px; margin-right: 150px; background-color: #dcdcdc;">
   <!--NAV-->
   <nav>
-      <button class="button" style="cursor:pointer; font-size: 1em; padding: 20px 20px 20px 20px; font-size: 3em;" onclick="fetchPage('development.html')">Development</button>
-      <button class="button" style="cursor:pointer; font-size: 1em; padding: 20px 20px 20px 10px; font-size: 3em;" onclick="fetchPage('social.html')">Social Media</button>
-      <button class="button" style="cursor:pointer; font-size: 1em; padding: 20px 20px 20px 10px; font-size: 3em;" onclick="fetchPage('dailyLife.html')">Daily Life</button>
-      <button class="button" style="cursor:pointer; font-size: 1em; padding: 20px 10px 20px 20px; font-size: 3em;" onclick="fetchPage('aboutMe.html')">About me</button>
+      <button class="button" style="cursor:pointer; font-size: 1em; padding: 20px 20px 20px 20px; font-size: 3em;" onclick="fetchPage('development.html')">송재근의 개발일지</button>
   </nav> 
   </div> 
 </header>
@@ -25,6 +22,21 @@
 </article>
 </div>
 <script>
+
+var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson','Windows Phone');
+
+for (var word in mobileKeyWords){
+
+if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+
+location.href = "mobile/index.html";
+
+break;
+
+}
+
+}
+
 function fetchPage(name){
 fetch(name).then(function(response){
 	response.text().then(function(text){
