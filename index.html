@@ -36,7 +36,6 @@ break;
 }
 
 }
-
 function fetchPage(name){
 fetch(name).then(function(response){
 	response.text().then(function(text){
@@ -47,7 +46,15 @@ fetch(name).then(function(response){
 function fetchBoard(name){
 	fetch(name).then(function(response){
 		response.text().then(function(text){
-			document.querySelector('section').innerHTML = text;
+			if(document.getElementById("sec1").style.display == "block"){
+				document.getElementById("sec1").innerHTML = text;
+			}
+			else if(document.getElementById("sec2").style.display == "block"){
+				document.getElementById("sec2").innerHTML = text;
+			}
+			else if(document.getElementById("sec3").style.display == "block"){
+				document.getElementById("sec3").innerHTML = text;
+			}
 		})
 		 });
 	}
@@ -99,6 +106,7 @@ function dp_tab1(){
         click5.style.display = "none";
         
     }
+    
 }
 function dp_tab2(){
     let click1 = document.getElementById("+2");
@@ -108,36 +116,59 @@ function dp_tab2(){
         click2.style.display = "block";
     }
 }
-
 function dp_tab_move1(){
     let click1 = document.getElementById("home2");
     let click2 = document.getElementById("home1");
     let click3 = document.getElementById("home3");
+    let click4 = document.getElementById("sec1");
+    let click5 = document.getElementById("sec2");
+    let click6 = document.getElementById("sec3");
+
     if(click1.style.background === "grey"){
         click1.style.background = "white";
         click2.style.background= "grey";
         click3.style.background= "grey";
-        
+        click4.style.display = "none";
+        click5.style.display= "block";
+        click6.style.display= "none";
+
     }
 }
+
 function dp_tab_move2(){
     let click1 = document.getElementById("home1");
     let click2 = document.getElementById("home2");
     let click3 = document.getElementById("home3");
+    let click4 = document.getElementById("sec1");
+    let click5 = document.getElementById("sec2");
+    let click6 = document.getElementById("sec3");
+
     if(click1.style.background === "grey"){
         click1.style.background = "white";
         click2.style.background= "grey";
         click3.style.background= "grey";
+        click4.style.display = "block";
+        click5.style.display= "none";
+        click6.style.display= "none";
+
     }
 }
 function dp_tab_move3(){
     let click1 = document.getElementById("home3");
     let click2 = document.getElementById("home1");
     let click3 = document.getElementById("home2");
+    let click4 = document.getElementById("sec1");
+    let click5 = document.getElementById("sec2");
+    let click6 = document.getElementById("sec3");
+
     if(click1.style.background === "grey"){
         click1.style.background = "white";
         click2.style.background= "grey";
         click3.style.background= "grey";
+        click4.style.display = "none";
+        click5.style.display= "none";
+        click6.style.display= "block";
+
     }
 }
 function dp_del1(){
@@ -173,6 +204,12 @@ function dp_del2(){
         click4.style.display = "block";
         click2.style.display = "none";
     }
+}
+function autoResize(i)
+{
+    var iframeHeight=
+    (i).contentWindow.document.body.scrollHeight;
+    (i).height=iframeHeight+20;
 }
 </script>
 </body>

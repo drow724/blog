@@ -21,6 +21,9 @@ nav {
 nav ul{
 
 }
+ul{
+ font-family: 'DOSMyungjo';
+}
 nav ul li {
   list-style: none;
   display: inline-block;
@@ -116,6 +119,7 @@ nav h2{
  } 
 
  #navbar #holder ul li a { 
+ font-family: 'DOSMyungjo';
   text-decoration:none;
   float:left;
   line-height:23px;
